@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "D:\\flutterprojects\\mysclstaffapp\\build\\image_cropper\\intermediates\\res\\merged\\release\\animator\\fragment_fade_exit.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-3\\06aa47322c0b9dfa8b1f062881f862d1\\transformed\\fragment-1.3.4\\res\\animator\\fragment_fade_exit.xml"
+    },
+    {
+        "merged": "D:\\flutterprojects\\mysclstaffapp\\build\\image_cropper\\intermediates\\res\\merged\\release\\animator\\fragment_open_enter.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-3\\06aa47322c0b9dfa8b1f062881f862d1\\transformed\\fragment-1.3.4\\res\\animator\\fragment_open_enter.xml"
+    },
+    {
+        "merged": "D:\\flutterprojects\\mysclstaffapp\\build\\image_cropper\\intermediates\\res\\merged\\release\\animator\\fragment_open_exit.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-3\\06aa47322c0b9dfa8b1f062881f862d1\\transformed\\fragment-1.3.4\\res\\animator\\fragment_open_exit.xml"
+    },
+    {
+        "merged": "D:\\flutterprojects\\mysclstaffapp\\build\\image_cropper\\intermediates\\res\\merged\\release\\animator\\fragment_fade_enter.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-3\\06aa47322c0b9dfa8b1f062881f862d1\\transformed\\fragment-1.3.4\\res\\animator\\fragment_fade_enter.xml"
+    },
+    {
+        "merged": "D:\\flutterprojects\\mysclstaffapp\\build\\image_cropper\\intermediates\\res\\merged\\release\\animator\\fragment_close_enter.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-3\\06aa47322c0b9dfa8b1f062881f862d1\\transformed\\fragment-1.3.4\\res\\animator\\fragment_close_enter.xml"
+    },
+    {
+        "merged": "D:\\flutterprojects\\mysclstaffapp\\build\\image_cropper\\intermediates\\res\\merged\\release\\animator\\fragment_close_exit.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-3\\06aa47322c0b9dfa8b1f062881f862d1\\transformed\\fragment-1.3.4\\res\\animator\\fragment_close_exit.xml"
+    }
+]

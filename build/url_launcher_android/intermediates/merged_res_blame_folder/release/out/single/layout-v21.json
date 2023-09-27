@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\flutterprojects\\mysclstaffapp\\build\\url_launcher_android\\intermediates\\res\\merged\\release\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-3\\a6265711b0c953f8dd427286ff634856\\transformed\\core-1.6.0\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "D:\\flutterprojects\\mysclstaffapp\\build\\url_launcher_android\\intermediates\\res\\merged\\release\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-3\\a6265711b0c953f8dd427286ff634856\\transformed\\core-1.6.0\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "D:\\flutterprojects\\mysclstaffapp\\build\\url_launcher_android\\intermediates\\res\\merged\\release\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-3\\a6265711b0c953f8dd427286ff634856\\transformed\\core-1.6.0\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "D:\\flutterprojects\\mysclstaffapp\\build\\url_launcher_android\\intermediates\\res\\merged\\release\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-3\\a6265711b0c953f8dd427286ff634856\\transformed\\core-1.6.0\\res\\layout-v21\\notification_template_custom_big.xml"
+    }
+]

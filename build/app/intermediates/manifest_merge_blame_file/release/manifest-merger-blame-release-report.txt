@@ -1,0 +1,187 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.levnext.myschoolstaff"
+4    android:versionCode="3"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\flutterprojects\mysclstaffapp\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->D:\flutterprojects\mysclstaffapp\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\flutterprojects\mysclstaffapp\android\app\src\main\AndroidManifest.xml:3:5-66
+11-->D:\flutterprojects\mysclstaffapp\android\app\src\main\AndroidManifest.xml:3:22-64
+12    <!-- Provide required visibility configuration for API level 30 and above -->
+13    <queries>
+13-->D:\flutterprojects\mysclstaffapp\android\app\src\main\AndroidManifest.xml:5:5-21:15
+14
+15        <!-- If your app checks for SMS support -->
+16        <intent>
+16-->D:\flutterprojects\mysclstaffapp\android\app\src\main\AndroidManifest.xml:7:9-10:18
+17            <action android:name="android.intent.action.VIEW" />
+17-->D:\flutterprojects\mysclstaffapp\android\app\src\main\AndroidManifest.xml:8:13-65
+17-->D:\flutterprojects\mysclstaffapp\android\app\src\main\AndroidManifest.xml:8:21-62
+18
+19            <data android:scheme="sms" />
+19-->D:\flutterprojects\mysclstaffapp\android\app\src\main\AndroidManifest.xml:9:13-42
+19-->D:\flutterprojects\mysclstaffapp\android\app\src\main\AndroidManifest.xml:9:19-39
+20        </intent>
+21        <intent>
+21-->D:\flutterprojects\mysclstaffapp\android\app\src\main\AndroidManifest.xml:11:9-15:18
+22            <action android:name="android.intent.action.VIEW" />
+22-->D:\flutterprojects\mysclstaffapp\android\app\src\main\AndroidManifest.xml:8:13-65
+22-->D:\flutterprojects\mysclstaffapp\android\app\src\main\AndroidManifest.xml:8:21-62
+23
+24            <category android:name="android.intent.category.BROWSABLE" />
+24-->D:\flutterprojects\mysclstaffapp\android\app\src\main\AndroidManifest.xml:13:13-74
+24-->D:\flutterprojects\mysclstaffapp\android\app\src\main\AndroidManifest.xml:13:23-71
+25
+26            <data android:scheme="https" />
+26-->D:\flutterprojects\mysclstaffapp\android\app\src\main\AndroidManifest.xml:9:13-42
+26-->D:\flutterprojects\mysclstaffapp\android\app\src\main\AndroidManifest.xml:9:19-39
+27        </intent>
+28        <!-- If your app checks for call support -->
+29        <intent>
+29-->D:\flutterprojects\mysclstaffapp\android\app\src\main\AndroidManifest.xml:17:9-20:18
+30            <action android:name="android.intent.action.VIEW" />
+30-->D:\flutterprojects\mysclstaffapp\android\app\src\main\AndroidManifest.xml:8:13-65
+30-->D:\flutterprojects\mysclstaffapp\android\app\src\main\AndroidManifest.xml:8:21-62
+31
+32            <data android:scheme="tel" />
+32-->D:\flutterprojects\mysclstaffapp\android\app\src\main\AndroidManifest.xml:9:13-42
+32-->D:\flutterprojects\mysclstaffapp\android\app\src\main\AndroidManifest.xml:9:19-39
+33        </intent>
+34        <intent>
+34-->[:file_picker] D:\flutterprojects\mysclstaffapp\build\file_picker\intermediates\library_manifest\release\AndroidManifest.xml:10:9-14:18
+35            <action android:name="android.intent.action.GET_CONTENT" />
+35-->[:file_picker] D:\flutterprojects\mysclstaffapp\build\file_picker\intermediates\library_manifest\release\AndroidManifest.xml:11:13-72
+35-->[:file_picker] D:\flutterprojects\mysclstaffapp\build\file_picker\intermediates\library_manifest\release\AndroidManifest.xml:11:21-69
+36
+37            <data android:mimeType="*/*" />
+37-->D:\flutterprojects\mysclstaffapp\android\app\src\main\AndroidManifest.xml:9:13-42
+38        </intent>
+39    </queries>
+40
+41    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+41-->[:file_picker] D:\flutterprojects\mysclstaffapp\build\file_picker\intermediates\library_manifest\release\AndroidManifest.xml:7:5-80
+41-->[:file_picker] D:\flutterprojects\mysclstaffapp\build\file_picker\intermediates\library_manifest\release\AndroidManifest.xml:7:22-77
+42    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+42-->[com.google.android.exoplayer:exoplayer-core:2.18.5] C:\Users\Admin\.gradle\caches\transforms-3\b4a33ebfe9e05c535988081d5fdc118c\transformed\jetified-exoplayer-core-2.18.5\AndroidManifest.xml:24:5-79
+42-->[com.google.android.exoplayer:exoplayer-core:2.18.5] C:\Users\Admin\.gradle\caches\transforms-3\b4a33ebfe9e05c535988081d5fdc118c\transformed\jetified-exoplayer-core-2.18.5\AndroidManifest.xml:24:22-76
+43
+44    <permission
+44-->[androidx.core:core:1.9.0] C:\Users\Admin\.gradle\caches\transforms-3\daa1abe91f236e87fc739f8538ec6add\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+45        android:name="com.levnext.myschoolstaff.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+45-->[androidx.core:core:1.9.0] C:\Users\Admin\.gradle\caches\transforms-3\daa1abe91f236e87fc739f8538ec6add\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+46        android:protectionLevel="signature" />
+46-->[androidx.core:core:1.9.0] C:\Users\Admin\.gradle\caches\transforms-3\daa1abe91f236e87fc739f8538ec6add\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+47
+48    <uses-permission android:name="com.levnext.myschoolstaff.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+48-->[androidx.core:core:1.9.0] C:\Users\Admin\.gradle\caches\transforms-3\daa1abe91f236e87fc739f8538ec6add\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+48-->[androidx.core:core:1.9.0] C:\Users\Admin\.gradle\caches\transforms-3\daa1abe91f236e87fc739f8538ec6add\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+49
+50    <application
+51        android:name="android.app.Application"
+51-->D:\flutterprojects\mysclstaffapp\android\app\src\main\AndroidManifest.xml:24:9-42
+52        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+52-->[androidx.core:core:1.9.0] C:\Users\Admin\.gradle\caches\transforms-3\daa1abe91f236e87fc739f8538ec6add\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+53        android:icon="@mipmap/ic_launcher"
+53-->D:\flutterprojects\mysclstaffapp\android\app\src\main\AndroidManifest.xml:25:9-43
+54        android:label="My School - Staff" >
+54-->D:\flutterprojects\mysclstaffapp\android\app\src\main\AndroidManifest.xml:23:9-42
+55        <activity
+55-->D:\flutterprojects\mysclstaffapp\android\app\src\main\AndroidManifest.xml:26:9-46:20
+56            android:name="com.levnext.myschoolstaff.MainActivity"
+56-->D:\flutterprojects\mysclstaffapp\android\app\src\main\AndroidManifest.xml:27:13-41
+57            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+57-->D:\flutterprojects\mysclstaffapp\android\app\src\main\AndroidManifest.xml:31:13-163
+58            android:exported="true"
+58-->D:\flutterprojects\mysclstaffapp\android\app\src\main\AndroidManifest.xml:28:13-36
+59            android:hardwareAccelerated="true"
+59-->D:\flutterprojects\mysclstaffapp\android\app\src\main\AndroidManifest.xml:32:13-47
+60            android:launchMode="singleTop"
+60-->D:\flutterprojects\mysclstaffapp\android\app\src\main\AndroidManifest.xml:29:13-43
+61            android:theme="@style/LaunchTheme"
+61-->D:\flutterprojects\mysclstaffapp\android\app\src\main\AndroidManifest.xml:30:13-47
+62            android:windowSoftInputMode="adjustResize" >
+62-->D:\flutterprojects\mysclstaffapp\android\app\src\main\AndroidManifest.xml:33:13-55
+63
+64            <!--
+65                 Specifies an Android theme to apply to this Activity as soon as
+66                 the Android process has started. This theme is visible to the user
+67                 while the Flutter UI initializes. After that, this theme continues
+68                 to determine the Window background behind the Flutter UI.
+69            -->
+70            <meta-data
+70-->D:\flutterprojects\mysclstaffapp\android\app\src\main\AndroidManifest.xml:38:13-41:17
+71                android:name="io.flutter.embedding.android.NormalTheme"
+71-->D:\flutterprojects\mysclstaffapp\android\app\src\main\AndroidManifest.xml:39:15-70
+72                android:resource="@style/NormalTheme" />
+72-->D:\flutterprojects\mysclstaffapp\android\app\src\main\AndroidManifest.xml:40:15-52
+73
+74            <intent-filter>
+74-->D:\flutterprojects\mysclstaffapp\android\app\src\main\AndroidManifest.xml:42:13-45:29
+75                <action android:name="android.intent.action.MAIN" />
+75-->D:\flutterprojects\mysclstaffapp\android\app\src\main\AndroidManifest.xml:43:17-68
+75-->D:\flutterprojects\mysclstaffapp\android\app\src\main\AndroidManifest.xml:43:25-66
+76
+77                <category android:name="android.intent.category.LAUNCHER" />
+77-->D:\flutterprojects\mysclstaffapp\android\app\src\main\AndroidManifest.xml:44:17-76
+77-->D:\flutterprojects\mysclstaffapp\android\app\src\main\AndroidManifest.xml:44:27-74
+78            </intent-filter>
+79        </activity>
+80        <!--
+81             Don't delete the meta-data below.
+82             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+83        -->
+84        <meta-data
+84-->D:\flutterprojects\mysclstaffapp\android\app\src\main\AndroidManifest.xml:49:9-51:33
+85            android:name="flutterEmbedding"
+85-->D:\flutterprojects\mysclstaffapp\android\app\src\main\AndroidManifest.xml:50:13-44
+86            android:value="2" />
+86-->D:\flutterprojects\mysclstaffapp\android\app\src\main\AndroidManifest.xml:51:13-30
+87
+88        <provider
+88-->[:image_picker_android] D:\flutterprojects\mysclstaffapp\build\image_picker_android\intermediates\library_manifest\release\AndroidManifest.xml:8:9-16:20
+89            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+89-->[:image_picker_android] D:\flutterprojects\mysclstaffapp\build\image_picker_android\intermediates\library_manifest\release\AndroidManifest.xml:9:13-82
+90            android:authorities="com.levnext.myschoolstaff.flutter.image_provider"
+90-->[:image_picker_android] D:\flutterprojects\mysclstaffapp\build\image_picker_android\intermediates\library_manifest\release\AndroidManifest.xml:10:13-74
+91            android:exported="false"
+91-->[:image_picker_android] D:\flutterprojects\mysclstaffapp\build\image_picker_android\intermediates\library_manifest\release\AndroidManifest.xml:11:13-37
+92            android:grantUriPermissions="true" >
+92-->[:image_picker_android] D:\flutterprojects\mysclstaffapp\build\image_picker_android\intermediates\library_manifest\release\AndroidManifest.xml:12:13-47
+93            <meta-data
+93-->[:image_picker_android] D:\flutterprojects\mysclstaffapp\build\image_picker_android\intermediates\library_manifest\release\AndroidManifest.xml:13:13-15:75
+94                android:name="android.support.FILE_PROVIDER_PATHS"
+94-->[:image_picker_android] D:\flutterprojects\mysclstaffapp\build\image_picker_android\intermediates\library_manifest\release\AndroidManifest.xml:14:17-67
+95                android:resource="@xml/flutter_image_picker_file_paths" />
+95-->[:image_picker_android] D:\flutterprojects\mysclstaffapp\build\image_picker_android\intermediates\library_manifest\release\AndroidManifest.xml:15:17-72
+96        </provider>
+97
+98        <activity
+98-->[:url_launcher_android] D:\flutterprojects\mysclstaffapp\build\url_launcher_android\intermediates\library_manifest\release\AndroidManifest.xml:8:9-11:74
+99            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+99-->[:url_launcher_android] D:\flutterprojects\mysclstaffapp\build\url_launcher_android\intermediates\library_manifest\release\AndroidManifest.xml:9:13-74
+100            android:exported="false"
+100-->[:url_launcher_android] D:\flutterprojects\mysclstaffapp\build\url_launcher_android\intermediates\library_manifest\release\AndroidManifest.xml:10:13-37
+101            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+101-->[:url_launcher_android] D:\flutterprojects\mysclstaffapp\build\url_launcher_android\intermediates\library_manifest\release\AndroidManifest.xml:11:13-71
+102
+103        <uses-library
+103-->[androidx.window:window:1.0.0-beta04] C:\Users\Admin\.gradle\caches\transforms-3\be25f98efe7024d6948acbf5d9901432\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+104            android:name="androidx.window.extensions"
+104-->[androidx.window:window:1.0.0-beta04] C:\Users\Admin\.gradle\caches\transforms-3\be25f98efe7024d6948acbf5d9901432\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+105            android:required="false" />
+105-->[androidx.window:window:1.0.0-beta04] C:\Users\Admin\.gradle\caches\transforms-3\be25f98efe7024d6948acbf5d9901432\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+106        <uses-library
+106-->[androidx.window:window:1.0.0-beta04] C:\Users\Admin\.gradle\caches\transforms-3\be25f98efe7024d6948acbf5d9901432\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+107            android:name="androidx.window.sidecar"
+107-->[androidx.window:window:1.0.0-beta04] C:\Users\Admin\.gradle\caches\transforms-3\be25f98efe7024d6948acbf5d9901432\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+108            android:required="false" />
+108-->[androidx.window:window:1.0.0-beta04] C:\Users\Admin\.gradle\caches\transforms-3\be25f98efe7024d6948acbf5d9901432\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+109    </application>
+110
+111</manifest>
